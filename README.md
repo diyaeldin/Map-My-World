@@ -23,16 +23,16 @@ After the above steps, you should be able to run the commands below in separate 
 
 Launch the world in Gazebo:
 
-``roslaunch slam_project slam_world.launch``
+``roslaunch my_robot world.launch``
 
 Launch the teleop node for keyboard control:
 
-``roslaunch slam_project teleop.launch``
+``roslaunch my_robot teleop.launch``
 
 Launch the RTAB-Map mapping node
 
-``roslaunch slam_project mapping.launch``
+``roslaunch my_robot mapping.launch``
 
 Launch the RViz GUI:
 
-``roslaunch slam_project rviz.launch``
+``roslaunch my_robot rviz.launch``
