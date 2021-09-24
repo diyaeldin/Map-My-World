@@ -33,6 +33,8 @@ Launch the RTAB-Map mapping node
 
 ``roslaunch my_robot mapping.launch``
 
-Launch the RViz GUI:
+Open Mapping databease:
 
-``roslaunch my_robot rviz.launch``
+``rtabmap-databaseViewer ~/.ros/rtabmap.db``
+
+
